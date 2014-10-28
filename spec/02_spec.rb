@@ -4,11 +4,7 @@ describe "More fun with hashes" do
   let(:people) { people_data }
   let(:___) { nil }
 
-  before do
-    pending
-  end
-
-  it "gets joes first name" do
+  xit "gets joes first name" do
     first_name = ___
     expect( first_name ).to be == "Joe"
   end

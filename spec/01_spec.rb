@@ -23,44 +23,37 @@ describe 'Hash basics' do
   end
 
   describe "working with person data" do
-    before do
-      pending
-    end
-
-    it "we can greet our person" do
+    xit "we can greet our person" do
       greeting = ___
       expect( greeting ).to be == "Hello, nice to meet you Bjorn Borg."
     end
 
-    it "repackages address data" do
+    xit "repackages address data" do
       address = ___
       expect( address ).to be == "444 Borg Lane, San Francisco, CA, 94104"
     end
 
-    it "makes a formatted string describing our person's favorite foods" do
+    xit "makes a formatted string describing our person's favorite foods" do
       favorite_foods = ___
       expect( favorite_foods ).to be == "Bjorn's favorite foods are sushi, hamburgers, and mexican food."
     end
   end
 
   describe "adding data to the hash" do
-    before do
-      pending
-    end
     # Don't edit the support files containing person_data.
     # Look up in Ruby docs how to add to a hash, and make the changes stick!
 
-    it "adds nickname information" do
+    xit "adds nickname information" do
       expect( person[:nick_name] ).to be == 'BJ'
     end
 
-    it "adds information about tournament wins" do
+    xit "adds information about tournament wins" do
       expect( person[:tournament_wins] ).to be == {
         wimbeldon: ["1976", "1977", "1978", "1979", "1980"]
       }
     end
 
-    it "formats details about years person was active" do
+    xit "formats details about years person was active" do
       years_active = ___
       expect( years_active ).to be == "Years active: 1976-1980"
     end

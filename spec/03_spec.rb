@@ -7,27 +7,23 @@ describe 'creating hashes' do
     ___ # change this to the hash that will get tests passing!
   }
 
-  before do
-    pending
-  end
-
-  it "retuns the dogs names" do
+  xit "retuns the dogs names" do
     expect( dogs.keys ).to be == ["Harleigh", "Trixie"]
   end
 
-  it "returns Harleigh's favorite toy" do
+  xit "returns Harleigh's favorite toy" do
     expect(dogs['Harleigh'][:favorite_toy]).to be == "frog"
   end
 
-  it "returns Trixie's favorite food" do
+  xit "returns Trixie's favorite food" do
     expect(dogs['Trixie'][:favorite_food]).to be == 'steak'
   end
 
-  it "returns Harleigh's favorite sports" do
+  xit "returns Harleigh's favorite sports" do
     expect(dogs['Harleigh'][:sports]).to be == ["frisbee", "hiking"]
   end
 
-  it "returns Trixies favorite sports" do
+  xit "returns Trixies favorite sports" do
     expect(dogs['Harleigh'][:sports]).to be == [:swimming, :prancing]
   end
 end
